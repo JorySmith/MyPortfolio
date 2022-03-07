@@ -725,7 +725,7 @@ hr {
 
 .about-area .about-content .content-download,
 .about-area .about-content .content-work {
-  margin-right: 16px;
+  margin: 8px 8px;
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
