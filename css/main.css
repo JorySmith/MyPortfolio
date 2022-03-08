@@ -1196,6 +1196,9 @@ hr {
 .designs-area .single-post {
   background-color: transparent;
   border: none;
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
 }
 
 .designs-area .single-post .post-img {
