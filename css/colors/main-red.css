@@ -14,7 +14,7 @@
  * Sidebar
  * Home
  * About
- * Services
+ * Key Skills / Services
  * Hire
  * Portfolio
  * Testimonials
@@ -255,7 +255,7 @@ a:not(.btn):focus {
 }
 
 /*----------- Services -----------*/
-.services-area .single-service .service-icon {
+.skills-area .single-service .service-icon {
   color: #dc3545;
 }
 
@@ -274,9 +274,9 @@ a:not(.btn):focus {
   color: #dc3545;
 }
 
-/*----------- Testimonials -----------*/
-.testimonials-area .single-review .review-icon {
-  color: #dc3545;
+/*----------- Designs -----------*/
+.designs-area .single-post .post-img .content-date {
+  background-color: #dc3545;
 }
 
 /*----------- Blog -----------*/
