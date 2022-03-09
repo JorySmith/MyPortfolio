@@ -500,6 +500,7 @@ hr {
 
 /*----------- Home -----------*/
 .home-area {
+  background: fixed;
   background-position: center center;
   height: 100vh;
 }
