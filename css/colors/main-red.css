@@ -221,10 +221,17 @@ a:not(.btn):focus {
   border: 1px solid #dc3545 !important;
 }
 
+.btn.button-scheme:hover {
+  background-color: #ffffff !important;
+  border: 1px solid #dc3545 !important;
+  color: #696969 !important;
+}
+
 .btn.button-scheme:focus {
   background-color: #a71d2a !important;
   border-color: #a71d2a !important;
   box-shadow: none !important;
+  color: #fff !important;
 }
 
 .btn.button-outline {
