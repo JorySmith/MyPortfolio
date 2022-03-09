@@ -845,7 +845,11 @@ hr {
   margin-bottom: 30px;
   padding: 38px 24px;
   text-align: center;
-  transition: all 0.15s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.skills-area .single-service:hover {
+  transform: scale(1.04);
 }
 
 .skills-area .single-service .service-icon {
@@ -1290,6 +1294,11 @@ hr {
 .blog-area .single-post {
   background-color: transparent;
   border: none;
+  transition: transform .3s ease-in-out;
+}
+
+.blog-area .single-post:hover {
+  transform: scale(1.02);
 }
 
 .blog-area .single-post .post-img {
