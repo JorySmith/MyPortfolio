@@ -200,12 +200,12 @@ a.text-custom:focus {
 }
 
 a:not(.btn) {
-  color: #dc3545;
+  color: #fff;
 }
 
 a:not(.btn):hover,
 a:not(.btn):focus {
-  color: #a71d2a;
+  color: #090c10;
 }
 
 .color-scheme {
@@ -217,13 +217,13 @@ a:not(.btn):focus {
 }
 
 .btn.button-scheme {
-  background-color: #dc3545 !important;
-  border: 1px solid #dc3545 !important;
+  background-color: #113b6d !important;
+  border: 1px solid #2e6dc0 !important;
 }
 
 .btn.button-scheme:hover {
-  background-color: #ffffff !important;
-  border: 1px solid #dc3545 !important;
+  background-color: #2e6dc0 !important;
+  border: 1px solid #2e6dc0 !important;
   color: #696969 !important;
 }
 
@@ -248,7 +248,7 @@ a:not(.btn):focus {
 
 /*----------- Sidebar -----------*/
 .sidebar .sidebar-menu .list-menu .nav-link.active {
-  color: #dc3545;
+  color: #0b257a;
 }
 
 /*----------- Home -----------*/
@@ -263,18 +263,18 @@ a:not(.btn):focus {
 
 /*----------- Services -----------*/
 .skills-area .single-service .service-icon {
-  color: #dc3545;
+  color: #0b257a;
 }
 
 /*----------- Portfolio -----------*/
 .portfolio-area .filter-control>li:hover,
 .portfolio-area .filter-control>li.tab-active {
-  color: #e14f5d;
+  color: #0b257a;
 }
 
 .portfolio-area .filter-control>li:hover:before,
 .portfolio-area .filter-control>li.tab-active:before {
-  background-color: #e14f5d;
+  background-color: #6a6a6a;
 }
 
 .portfolio-area .portfolio-grid .portfolio-wrapper .item-content .content-more {
@@ -298,5 +298,5 @@ a:not(.btn):focus {
 
 /*----------- Footer -----------*/
 .footer-area .contact-info .info-icon {
-  color: #dc3545;
+  color: #0b257a;
 }

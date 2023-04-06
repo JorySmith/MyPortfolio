@@ -166,16 +166,13 @@
           <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center">
               <div class="col-12 col-lg-8 home-content text-center">
-                <h1 class="home-name">Jory <span>Smith</span></h1>
-                <h4 class="cd-headline clip home-headline">
-                  <span>
-                    Full Stack Developer and UI Designer</br></br>
-                    C#, ASP.NET Core, React, JavaScript, SQL</br>
-                  </span>
-                </h4>
+                <h1 class="home-name">Jory Smith</h1>
+                <h2 class="cd-headline clip">Full Stack Developer</h2>
+                <h3 class="cd-headline clip home-headline">C# | .NET | Azure DevOps | JavaScript | SQL</h3>
                 <div class="button-part mt-5">
                   <a
                     class="btn hire-btn button-main button-scheme"
+                    id="hire-btn"
                     data-scroll=""
                     href="https://1drv.ms/b/s!ArgVt-dRUqbnmVvEorKwbHQfGgjT?e=1hUpYH"
                     target="_blank"
@@ -193,18 +190,11 @@
                     >My Portfolio</a
                   >
                 </div>
-              </div>
-              <a href="#about-area" data-scroll>
-                <div class="home-mouse">
-                  <div class="mouse-shape">
-                    <div class="mouse-wheel"></div>
-                  </div>
-                </div>
-              </a>
+              </div>              
             </div>
           </div>
         </section>
-        <!-- About-->
+        <!-- About Me and Education and Training-->
         <section class="single-section about-area" id="about-area">
           <div class="container">
             <div class="row">
@@ -212,71 +202,54 @@
                 <div class="section-heading">
                   <h2 class="section-title">About me</h2>
                   <p class="section-description">
-                    Full stack developer and former lead intel analyst
+                    I'm a full stack C# .NET developer with an expertise is backend API development and SQL database integration.
                   </p>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center">              
-              <!-- Content part-->
-              <div class="col-12 col-lg-9 about-content">
-                <div class="content-block">
-                  <h6 class="content-title">
-                    Hi there, I'm Jory!
-                  </h6>
-                  <div class="content-description">
-                    <p>
-                      I can help craft your vision into professional, stylish, fast,
-                      secure, and scalable websites and applications that
-                      deliver UX results. My tech stack includes C#, ASP.NET MVC, React,
-                      JavaScript, SQL, jQuery, Bootstrap, HTML,
-                      CSS, and Figma.
-                      <br /><br />
-                      I'm also a former lead intelligence analyst with five
-                      combat deployments supporting Special Operations Forces. I
-                      specialized in solving complex problems, rapid
-                      prototyping, quickly adapting to changing requirements,
-                      and elevating teams to deliver innovative solutions that
-                      exceeded client expectations.
-                    </p>
-                  </div>
-                  <h6 class="content-title mt-4">
+                  <p>
+                    I can help craft your vision into professional, fast,
+                      secure, and scalable web applications that
+                      deliver UX results. My tech stack includes C#, .NET Core MVC, 
+                      JavaScript, SQL, SSMS, SSRS, jQuery, Bootstrap, HTML,
+                      CSS, and Figma. 
+                  </p>
+                  <h3 class="content-title mt-4">
                     Education and Developer Training
-                  </h6>
+                  </h3>
                   <div class="content-description">
                     <ul>
                       <li>MA in Defense Management, 2019, American Military University, 4.0 GPA.</li>
                       <li>BA in Intelligence Studies, 2013, American Military University, <i>Magna Cum Laude.</i></li>
                       <li>JavaScript Algorithms and Data Structures, Mar. 2022, Colt Steele, Udemy.com.</li>
                       <li>Full Stack C# ASP.NET Core Developer Bootcamp, Mar. 2022, CoderFoundry.com.</li>
-                      <li>Full Stack React JavaScript Developer Course, Jan. 2020, Andrei Neagoie, Udemy.com.</li>
-                      
+                      <li>Full Stack React JavaScript Developer Course, Jan. 2020, Andrei Neagoie, Udemy.com.</li>                      
                     </ul>
                   </div>
-                  <a
-                    class="btn content-download button-main button-scheme"
-                    href="https://1drv.ms/b/s!ArgVt-dRUqbnmVvEorKwbHQfGgjT?e=1hUpYH"
-                    target="_blank"
-                    role="button"
-                    >My Resume</a
-                  >                  
-                  <a
-                    class="btn content-work button-main button-scheme"
-                    data-scroll=""
-                    href="#portfolio-area"
-                    role="button"
-                    >My Portfolio</a
-                  >
-                  <a
-                    class="btn content-download button-main button-scheme"
-                    href="https://github.com/JorySmith"
-                    target="_blank"
-                    role="button"
-                    >My GitHub</a
-                  >
+                  <br>
+                  <div class="content-block">    
+                    <a
+                      class="btn content-download button-main button-scheme"
+                      href="https://1drv.ms/b/s!ArgVt-dRUqbnmVvEorKwbHQfGgjT?e=1hUpYH"
+                      target="_blank"
+                      role="button"
+                      >My Resume</a
+                    >                  
+                    <a
+                      class="btn content-work button-main button-scheme"
+                      data-scroll=""
+                      href="#portfolio-area"
+                      role="button"
+                      >My Portfolio</a
+                    >
+                    <a
+                      class="btn content-download button-main button-scheme"
+                      href="https://github.com/JorySmith"
+                      target="_blank"
+                      role="button"
+                      >My GitHub</a
+                    >
+                  </div>
                 </div>
               </div>
-            </div>
+            </div>            
           </div>
         </section>
         <!-- Portfolio-->
@@ -797,7 +770,7 @@
                   data-scroll=""
                   href="#contact-area"
                   role="button"
-                  >Contact Jory</a
+                  >Contact Me</a
                 >
               </div>
             </div>
@@ -1045,7 +1018,7 @@
             </div>
             <div class="row mini-footer">    
               <p class="copyright-notice col-12 text-center">
-                Modified by Jory Smith. © 2019 CardX. All Rights Reserved. Developed by
+                Modified by Jory Smith. © <span id="year"></span>. All Rights Reserved. Developed by
                 <a href="https://themeforest.net/user/exill" target="_blank"
                   >Exill</a>.
               </p>              
@@ -1055,6 +1028,9 @@
       </div>
     </div>
     <!-- Scripts-->
+    <script>
+      document.querySelector("#year").textContent = new Date().getFullYear();
+      </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
