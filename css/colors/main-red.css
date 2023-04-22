@@ -248,7 +248,7 @@ a:not(.btn):focus {
 
 /*----------- Sidebar -----------*/
 .sidebar .sidebar-menu .list-menu .nav-link.active {
-  color: #0b257a;
+  color: #4772ff;
 }
 
 /*----------- Home -----------*/
@@ -298,5 +298,5 @@ a:not(.btn):focus {
 
 /*----------- Footer -----------*/
 .footer-area .contact-info .info-icon {
-  color: #0b257a;
+  color: #4772ff;
 }

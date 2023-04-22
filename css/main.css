@@ -91,6 +91,10 @@ hr {
   color: black;
 }
 
+#job-title {
+    color: #fff;
+}
+
 /* Buttons */
 .button-main {
   background-color: #fff;
@@ -108,7 +112,7 @@ hr {
 }
 
 .button-main.button-scheme {
-  color: #0f1114;
+  color: #ffffff;
 }
 
 /* Section, title & description styles */
